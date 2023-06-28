@@ -1,0 +1,507 @@
+.header {
+    display: inline-block;
+}
+
+.header__left {
+    width: 100%;
+}
+
+img {
+    width: 20%;
+}
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+.firstview {
+    position: relative;
+}
+
+.img__firstview {
+    display: block;
+    text-align: right;
+    max-width: 550px;
+    width: 100%;
+    margin: 20px 0 0 auto;
+    z-index: 2;
+}
+
+.firstview-headline {
+    font-size: 55px;
+    font-weight: bold;
+    color: mediumvioletred;
+    margin-top: -300px;
+    margin-left: 180px;
+    z-index: 1;
+    font-family: 'Indie Flower', cursive;
+}
+
+span {
+    color: lightseagreen;
+}
+
+.firstview__comment-top {
+    font-size: 24px;
+    color: rgb(199, 21, 133);
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.firstview__comment-bottom {
+    color: gray;
+    margin-top: 10px;
+    margin-left: 180px;
+    font-weight: 250;
+}
+
+.firstview__info {
+    text-align: center;
+
+}
+
+.firstview-news {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(199, 21, 133);
+    margin-top: 150px;
+    margin-left: -550px;
+}
+
+.firstview__info-top {
+    color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    max-width: 50%;
+}
+
+.news__list {
+    display: inline-block;
+    border-top: solid 2px gray;
+    border-bottom: solid 2px gray;
+    padding-bottom: 30PX;
+    max-width: 70%;
+    
+}
+
+.link {
+    font-size: 14px;
+    margin-top: 20px;
+    border-bottom: solid 1px gray;
+    padding-bottom: 25PX;
+    width: 660px;
+    text-align: left;
+}
+
+.date {
+    color: gray;
+    margin-right: 20px;
+}
+
+.btn {
+    width: 100px;
+    padding: 8px 10px;
+    background: rgb(199, 21, 133);
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.list {
+    color: gray;
+}
+
+.content {
+    margin-top: 70px;
+    background-color: gainsboro;
+    height: 400px;
+
+}
+
+.content__about {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(199, 21, 133);
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+.content__top {
+    color:slategray;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content__comment {
+    color: gray;
+    margin-top: 50px;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+.content__comment-bottom {
+    color: gray;
+        margin-top: 30px;
+        margin-left: 30px;
+        line-height: 1.5;
+}
+
+.content__img {
+    width: 350px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -160px;
+}
+
+.service {
+    margin-top: 50px;
+    margin-left: 40px;
+
+}
+
+.service-menu {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(199, 21, 133);
+    margin-bottom: 15px;
+}
+
+.service-top {
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.grid__parent {
+    width: 800px;
+    height: 400px;
+}
+
+
+
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: mediumvioletred;
+}
+
+.box1-img {
+    width: 120px;
+    margin: 30px 140px auto;
+}
+
+.box1-menu {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.box1-text {
+    color: #fff;
+    margin-top: 30px;
+    width: 340px;
+    font-size: 14px;
+    margin-left: 30px;
+    line-height: 1.5;
+}
+
+.box2 {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(186, 82, 180);
+    margin-left: 400px;
+    margin-top: -400px;
+}
+
+.box2-img {
+    width: 120px;
+    margin-top: 30px;
+}
+
+.box2-menu {
+    color: #fff;
+    margin-left: 130px;
+    margin-top: -100px;
+}
+
+.box2-text {
+    color: #fff;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 130px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.box3 {
+    width: 400px;
+    height: 200px;
+    background-color: plum;
+    margin-left: 400px;
+}
+
+.box3-img {
+    width: 120px;
+    margin-top: 30px;
+}
+
+.box3-menu {
+    color: #fff;
+    margin-left: 130px;
+    margin-top: -100px;
+}
+
+.box3-text {
+    color: #fff;
+    width: 250px;
+    font-size: 14px;
+    margin-left: 130px;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.blog {
+    height: 400px;
+    background-color: gainsboro;
+
+}
+
+.blog-menu {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(199, 21, 133);
+    margin-bottom: 15px;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.blog-top {
+    color: gray;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.flex__item {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin-left: 40px;
+}
+
+.practice__card {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.card__img {
+    width: 200px;
+    z-index: 2;
+    border-radius: 10px 10px 0 0;
+    display: inline-block;
+    margin-top: -24px;
+}
+
+.card__ttl {
+    color: gray;
+    line-height: 1.5;
+    margin-top: 15px;
+    font-size: 12px;
+    margin-left: 8px;
+    font-weight: bold;
+}
+
+.tag {
+    font-size: 11px;
+    color: gray;
+    margin-top: 20px;
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.card__tag {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.card__date {
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.img__over {
+    color: #fff;
+    background-color: mediumvioletred;
+    z-index: 1;
+    display: block;
+    width: 45px;
+    border-radius: 10px 0 0 0;
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    padding: 6px;
+    
+}
+
+.practice__btn {
+    display: inline-block;
+    position: relative;
+    width: 100px;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: mediumvioletred;
+    background-color: #fff;
+    text-align: center;
+    border-style: solid;
+    margin-left: 360px;
+    margin-top: 30px;
+
+}
+
+.info {
+    margin-top: 80px;
+    margin-left: 40px;
+
+}
+
+.info-menu {
+    font-family: 'Indie Flower', cursive;
+    color: rgb(199, 21, 133);
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.info-top {
+    color: gray;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.company {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 40px;
+
+}
+
+tr {
+    border-style: solid;
+    color: gray;
+    width: 800px;
+}
+
+th,td {
+    padding: 20px ;
+    border: 1px solid gray;
+}
+
+th {
+    background-color: gainsboro;
+    text-align: left;
+}
+
+.staff {
+    max-width: 1000px;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.recrueit {
+    position: relative;
+}
+
+.recrueit__info {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    top: 40%;
+    left: 40%;
+
+
+}
+
+.img__recrueit {
+    width: 100%;
+    z-index: 2;
+
+}
+
+.interview {
+    position: relative;
+
+}
+
+.img__interview {
+    width: 100%;
+}
+
+.interview__info {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: #fff;
+    z-index: 1;
+}
+
+.inquiry {
+    color: gray;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+
+.inquiry__btn {
+    position: relative;
+    width: 250px;
+    padding: 20px 0;
+    color: #fff;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #f0a, #c1a);
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    display: block;
+}
+
+.inquiry__btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    background: url(img/mailicon.svg) no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    transform: translate(0,-50%);
+    color: #fff;
+}
+
+.copyright-box {
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    margin-top: 50px;
+}
+
+.copyright {
+    
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 12px;
+    color: gray;
+}
