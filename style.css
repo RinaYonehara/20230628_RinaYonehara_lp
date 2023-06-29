@@ -1,13 +1,15 @@
 .header {
-    display: inline-block;
+    padding: 10px 30px;
 }
 
 .header__left {
     width: 100%;
 }
 
-img {
-    width: 20%;
+.img__logo {
+    width: 10vw;
+    margin-top: 2px;
+
 }
 
 .header__right {
@@ -18,7 +20,7 @@ img {
 li {
     display: inline-block;
     margin-right: 10px;
-    font-size: 8px;
+    font-size: 1.2vw;
 }
 
 a {
@@ -31,22 +33,25 @@ a {
 }
 
 .img__firstview {
-    display: block;
+    display: flex;
     text-align: right;
-    max-width: 550px;
-    width: 100%;
+    max-width: 1000px;
+    width: 60%;
     margin: 20px 0 0 auto;
     z-index: 2;
 }
 
 .firstview-headline {
-    font-size: 55px;
+    justify-content: left;
+    font-size: 4.8vw;
     font-weight: bold;
     color: mediumvioletred;
-    margin-top: -300px;
-    margin-left: 180px;
+    margin-top: -35%;
+    margin-left: 20%;
     z-index: 1;
     font-family: 'Indie Flower', cursive;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 span {
@@ -54,72 +59,76 @@ span {
 }
 
 .firstview__comment-top {
-    font-size: 24px;
+    font-size: 1.8vw;
     color: rgb(199, 21, 133);
     font-weight: bold;
     margin-top: 50px;
-    margin-left: 180px;
+    margin-left: 20%;
 }
 
 .firstview__comment-bottom {
     color: gray;
     margin-top: 10px;
-    margin-left: 180px;
+    margin-left: 20%;
     font-weight: 250;
 }
 
 .firstview__info {
     text-align: center;
+    max-width: 1500px;
+    width: 100%;
 
 }
 
 .firstview-news {
     font-family: 'Indie Flower', cursive;
     color: rgb(199, 21, 133);
-    margin-top: 150px;
-    margin-left: -550px;
+    margin-top: 20vw;
+    margin-left: -52%;
 }
 
 .firstview__info-top {
     color: gray;
     margin-top: 10px;
     margin-left: 10px;
-    font-size: 20px;
+    font-size: 1.6vw;
     margin-bottom: 30px;
     max-width: 50%;
 }
 
 .news__list {
     display: inline-block;
-    border-top: solid 2px gray;
-    border-bottom: solid 2px gray;
-    padding-bottom: 30PX;
-    max-width: 70%;
+    border-top: solid 1px gray;
+    border-bottom: solid 1px gray;
+    padding-bottom: 1.6vw;
+    max-width: 50%;
+    margin-left: -5vw;
     
 }
 
 .link {
-    font-size: 14px;
-    margin-top: 20px;
-    border-bottom: solid 1px gray;
-    padding-bottom: 25PX;
-    width: 660px;
+    font-size: 1vw;
+    margin-top: 1.6vw;
+    border-bottom: solid 0.5px gray;
+    padding-bottom: 1vw;
+    max-width: 50vw;
+    width: 60vw;
     text-align: left;
 }
 
 .date {
     color: gray;
-    margin-right: 20px;
+    margin-right: 1vw;
 }
 
 .btn {
-    width: 100px;
-    padding: 8px 10px;
+    width: 6vw;
+    padding: 6px 10px;
     background: rgb(199, 21, 133);
     color: #fff;
-    border-radius: 30px;
+    border-radius: 2vw;
     text-align: center;
-    margin-right: 20px;
+    margin-right: 1.6vw;
     display: inline-block;
 }
 
@@ -130,7 +139,7 @@ span {
 .content {
     margin-top: 70px;
     background-color: gainsboro;
-    height: 400px;
+    height: 35vw;
 
 }
 
@@ -138,13 +147,13 @@ span {
     font-family: 'Indie Flower', cursive;
     color: rgb(199, 21, 133);
     text-align: center;
-    margin-bottom: 20px;
-    padding-top: 20px;
+    margin-bottom: 1.6vw;
+    padding-top: 2vw;
 }
 
 .content__top {
     color:slategray;
-    font-size: 24px;
+    font-size: 1.6vw;
     text-align: center;
     margin-top: 20px;
 }
@@ -152,34 +161,37 @@ span {
 .content__comment {
     color: gray;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 15vw;
     line-height: 1.5;
+    font-size: 1.2vw;
 }
 
 .content__comment-bottom {
     color: gray;
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 15vw;
         line-height: 1.5;
+        font-size: 1.2vw;
 }
 
 .content__img {
-    width: 350px;
+    width: 28vw;
     float: right;
-    margin-right: 50px;
-    margin-top: -160px;
+    margin-right: 20vw;
+    margin-top: -15vw;
 }
 
 .service {
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 15vw;
 
 }
 
 .service-menu {
     font-family: 'Indie Flower', cursive;
     color: rgb(199, 21, 133);
-    margin-bottom: 15px;
+    margin-bottom: 1vw;
+    font-size: 1.2vw;
 }
 
 .service-top {
@@ -188,95 +200,92 @@ span {
 }
 
 .grid__parent {
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    height: 40vw;
+    margin: 5vw auto;
 }
 
 
-
 .box1 {
-    width: 400px;
-    height: 400px;
+    width: 35vw;
+    height: 30vw;
     background-color: mediumvioletred;
 }
 
 .box1-img {
-    width: 120px;
-    margin: 30px 140px auto;
+    width: 10vw;
+    margin: 3vw 12vw auto;
 }
 
 .box1-menu {
     color: #fff;
     text-align: center;
-    margin-top: 30px;
+    margin: 20px auto;
 }
 
 .box1-text {
     color: #fff;
-    margin-top: 30px;
-    width: 340px;
-    font-size: 14px;
-    margin-left: 30px;
+    margin: 20px auto;
+    width: 29vw;
+    font-size: 1.2vw;
     line-height: 1.5;
 }
 
 .box2 {
-    width: 400px;
-    height: 200px;
+    width: 40vw;
+    height: 15vw;
     background-color: rgb(186, 82, 180);
-    margin-left: 400px;
-    margin-top: -400px;
+    margin-left:35vw;
+    margin-top: -30vw;
 }
 
 .box2-img {
-    width: 120px;
-    margin-top: 30px;
+    width: 10vw;
+    margin: 15px;
 }
 
 .box2-menu {
     color: #fff;
-    margin-left: 130px;
-    margin-top: -100px;
+    margin-left: 13vw;
+    margin-top: -10vw;
 }
 
 .box2-text {
     color: #fff;
-    width: 250px;
-    font-size: 14px;
-    margin-left: 130px;
-    margin-top: 20px;
+    width: 22vw;
+    font-size: 1.2vw;
+    margin: 1vw 13vw;
     line-height: 1.5;
 }
 
 .box3 {
-    width: 400px;
-    height: 200px;
+    width: 40vw;
+    height: 15vw;
     background-color: plum;
-    margin-left: 400px;
+    margin-left: 35vw;
 }
 
 .box3-img {
-    width: 120px;
-    margin-top: 30px;
+    width: 10vw;
+    margin: 15px;
 }
 
 .box3-menu {
     color: #fff;
-    margin-left: 130px;
-    margin-top: -100px;
+    margin-left: 13vw;
+    margin-top: -10vw;
 }
 
 .box3-text {
     color: #fff;
-    width: 250px;
-    font-size: 14px;
-    margin-left: 130px;
-    margin-top: 20px;
+    width: 22vw;
+    font-size: 1.2vw;
+    margin: 1vw 13vw;
     line-height: 1.5;
 }
 
 .blog {
-    height: 400px;
+    height: 40vw;
     background-color: gainsboro;
 
 }
@@ -284,34 +293,36 @@ span {
 .blog-menu {
     font-family: 'Indie Flower', cursive;
     color: rgb(199, 21, 133);
-    margin-bottom: 15px;
-    margin-top: 50px;
-    margin-left: 40px;
-    padding-top: 20px;
+    margin-bottom: 1.5vw;
+    margin-top: 3vw;
+    margin-left: 15vw;
+    padding-top: 3vw;
 }
 
 .blog-top {
     color: gray;
     margin-bottom: 15px;
-    margin-left: 40px;
+    margin-left: 15vw;
 }
 
 .flex__item {
     display: flex;
     justify-content: space-between;
-    max-width: 800px;
-    margin-left: 40px;
+    max-width: 1000px;
+    margin: 0 15vw;
 }
 
 .practice__card {
     border-radius: 10px;
     background-color: #fff;
+    height: 23vw;
+    width: 20vw;
 }
 
 .card__img {
-    width: 200px;
+    width: 20vw;
     z-index: 2;
-    border-radius: 10px 10px 0 0;
+    border-radius: 1vw 1vw 0 0;
     display: inline-block;
     margin-top: -24px;
 }
@@ -320,17 +331,17 @@ span {
     color: gray;
     line-height: 1.5;
     margin-top: 15px;
-    font-size: 12px;
-    margin-left: 8px;
+    margin-left: 1.5vw;
     font-weight: bold;
+    font-size: 1vw;
 }
 
 .tag {
-    font-size: 11px;
+    font-size: 0.8vw;
     color: gray;
-    margin-top: 20px;
+    margin-top: 3vw;
     margin-left: 8px;
-    margin-bottom: 20px;
+    text-align: center;
 }
 .card__tag {
     display: inline-block;
@@ -339,7 +350,7 @@ span {
 
 .card__date {
     display: inline-block;
-    margin-left: 3px;
+    margin-right: 1vw;
 }
 
 .img__over {
@@ -360,14 +371,15 @@ span {
     display: inline-block;
     position: relative;
     width: 100px;
-    border-radius: 30px;
-    padding: 10px 30px;
+    border-radius: 3vw;
+    padding: 1vw 3vw;
     color: mediumvioletred;
     background-color: #fff;
     text-align: center;
     border-style: solid;
-    margin-left: 360px;
-    margin-top: 30px;
+    margin-left: 42vw;
+    margin-top: 3vw;
+    font-size: 1.1vw;
 
 }
 
@@ -423,6 +435,7 @@ th {
 
 .recrueit {
     position: relative;
+    max-width: 1500px;
 }
 
 .recrueit__info {
@@ -431,12 +444,13 @@ th {
     color: #fff;
     top: 40%;
     left: 40%;
+    font-size: 2vw;
 
 
 }
 
 .img__recrueit {
-    width: 100%;
+    width: 50vw;
     z-index: 2;
 
 }
@@ -447,7 +461,7 @@ th {
 }
 
 .img__interview {
-    width: 100%;
+    width: 50vw;
 }
 
 .interview__info {
@@ -456,24 +470,27 @@ th {
     left: 40%;
     color: #fff;
     z-index: 1;
+    font-size: 2vw;
 }
 
 .inquiry {
     color: gray;
-    margin-top: 30px;
-    margin-left: 250px;
+    margin-top: 4vw;
+    margin-left: 33vw;
+    position: relative;
+    font-size: 1.5vw;
 }
 
 .inquiry__btn {
     position: relative;
-    width: 250px;
-    padding: 20px 0;
+    width: 20vw;
+    padding: 2vw 1vw;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 3vw;
     background: linear-gradient(90deg, #f0a, #c1a);
     text-align: center;
-    margin-top: 50px;
-    margin-left: 300px;
+    margin-top: 5vw;
+    margin-left: 38vw;
     display: block;
 }
 
@@ -481,11 +498,11 @@ th {
     content: "";
     position: absolute;
     top: 50%;
-    left: 20px;
+    left: 2vw;
     background: url(img/mailicon.svg) no-repeat;
     background-size: cover;
-    width: 20px;
-    height: 20px;
+    width: 2vw;
+    height: 2vw;
     transform: translate(0,-50%);
     color: #fff;
 }
@@ -493,15 +510,14 @@ th {
 .copyright-box {
     display: inline-block;
     width: 100%;
-    height: 100px;
+    height: 5vw;
     background-color: gainsboro;
-    margin-top: 50px;
+    margin-top: 5vw;
 }
 
 .copyright {
-    
-    margin-top: 20px;
-    margin-left: 300px;
-    font-size: 12px;
+    margin-top: 2vw;
+    margin-left: 37vw;
+    font-size: 1.2vw;
     color: gray;
 }
