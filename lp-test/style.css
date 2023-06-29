@@ -1,5 +1,7 @@
 .header {
-    padding: 10px 30px;
+    padding: 5px 2px 0 0;
+    display: flex;
+    margin-bottom: -10px;
 }
 
 .header__left {
@@ -8,13 +10,13 @@
 
 .img__logo {
     width: 10vw;
-    margin-top: 2px;
 
 }
 
 .header__right {
-    display: flex;
     justify-content: flex-end;
+    width: 60vw;
+    margin-right: -5vw;
 }
 
 li {
@@ -474,11 +476,24 @@ th {
 }
 
 .inquiry {
+    position: relative;
     color: gray;
     margin-top: 4vw;
     margin-left: 33vw;
     position: relative;
     font-size: 1.5vw;
+}
+
+.inquiry::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 35vw;
+    top: 3vw;
+    width: 2px;
+    height: 20px;
+    margin: auto;
+    background-color: mediumvioletred;
 }
 
 .inquiry__btn {
