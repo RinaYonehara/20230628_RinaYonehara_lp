@@ -16,7 +16,6 @@
 .header__right {
     justify-content: flex-end;
     width: 60vw;
-    margin-right: -5vw;
 }
 
 li {
@@ -37,9 +36,9 @@ a {
 .img__firstview {
     display: flex;
     text-align: right;
-    max-width: 1000px;
+    max-width: 1500px;
     width: 60%;
-    margin: 20px 0 0 auto;
+    margin: 2vw 0 0 auto;
     z-index: 2;
 }
 
@@ -142,6 +141,8 @@ span {
     margin-top: 70px;
     background-color: gainsboro;
     height: 35vw;
+    max-width: 1500px;
+    width: 100%;
 
 }
 
@@ -386,8 +387,8 @@ span {
 }
 
 .info {
-    margin-top: 80px;
-    margin-left: 40px;
+    margin-top: 8vw;
+    margin-left: 15vw;
 
 }
 
@@ -395,14 +396,14 @@ span {
     font-family: 'Indie Flower', cursive;
     color: rgb(199, 21, 133);
     font-weight: bold;
-    margin-bottom: 20px;
-    margin-left: 30px;
+    margin-bottom: 2vw;
+    margin-left: 4vw;
 }
 
 .info-top {
     color: gray;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    margin-bottom: 3vw;
+    margin-left: 4vw;
 }
 
 .company {
@@ -415,11 +416,11 @@ span {
 tr {
     border-style: solid;
     color: gray;
-    width: 800px;
+    width: 80vw;
 }
 
 th,td {
-    padding: 20px ;
+    padding: 2vw ;
     border: 1px solid gray;
 }
 
